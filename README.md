@@ -191,3 +191,5 @@ DimDate[Date]       → FactSales[date]
 DimProduct[sku_id]  → FactSales[sku_id]
 
 DimStore[store_id]  → FactSales[store_id]
+
+mnvkj
