@@ -204,56 +204,70 @@ A separate supplier dimension was intentionally excluded because the available s
 
 ---
 
-📅 Time Intelligence
+# 📅 Time Intelligence
 
-A dedicated calendar table was created to provide continuous dates from:
+A dedicated `DimDate` calendar table was created to support time-based analysis and DAX time-intelligence calculations.
 
-01/01/2021 – 31/12/2023
+The calendar table covers the full analysis period:
 
-The calendar table supports:
+**01/01/2021 – 31/12/2023**
 
-Daily analysis
-Weekly analysis
-Monthly analysis
-Quarterly analysis
-Yearly analysis
-Year-over-year comparisons
-Weekend vs weekday analysis
+The date dimension includes:
 
-The weekday calculation was standardized using:
+- Date
+- Year
+- Month Number
+- Month Name
+- Day of Month
+- Day Name
+- Quarter
+- Weekday
+- Week of Year
+- IsWeekend
 
+The date table was used to analyze business performance across different time periods and to calculate year-over-year performance.
+
+### Weekday & Weekend Classification
+
+The dataset's weekday numbering was standardized using:
+
+```excel
 =WEEKDAY(date,3)
+```
 
-ISO week numbering was implemented using:
+This returns Monday as 0 through Sunday as 6.
+
+ISO week numbers were created using:
 
 =ISOWEEKNUM(date)
 
-This calendar table was then used for DAX time-intelligence calculations such as previous-year comparisons.
+A weekend classification was also created to distinguish Saturdays and Sundays from weekdays.
 
-📊 Key Performance Indicators
+DAX Time Intelligence
 
-The dashboard was designed around four major areas of business performance.
+The DimDate table was used with DAX DATEADD and CALCULATE functions to create previous-year measures.
 
-💰 Sales & Profitability
-Total Net Sales
+For example:
+
+PY Net Sales =
+CALCULATE(
+    [Total Net Sales],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+This allowed the dashboard to compare current-year performance against the previous year and calculate YoY changes for metrics such as:
+
+Net Sales
 Profit
-Profit Margin %
-Total Units Sold
-Year-over-Year Growth
-🏷️ Promotions & Pricing
+Profit Margin
 Promo Sales
-Promo Dependency %
-Discount Impact %
+Promo Dependency
 Promo Units Sold
-Year-over-Year Growth
-📦 Inventory & Supply Chain
-Stockout Count
-Stockout Rate %
-Average Stock on Hand
+Stockouts
+Stockout Rate
 Average Lead Time
-Year-over-Year Growth
-
-These KPIs allow business performance to be evaluated across different time periods, products, brands, categories, countries, stores, and channels.
+Average Stock on Hand
+Total Units Sold
 
 
 
