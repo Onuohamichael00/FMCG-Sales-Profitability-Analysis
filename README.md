@@ -233,41 +233,50 @@ The dataset's weekday numbering was standardized using:
 
 ```excel
 =WEEKDAY(date,3)
-```
+````
 
-This returns Monday as 0 through Sunday as 6.
+This returns Monday as `0` through Sunday as `6`.
 
 ISO week numbers were created using:
 
+```excel
 =ISOWEEKNUM(date)
+```
 
 A weekend classification was also created to distinguish Saturdays and Sundays from weekdays.
 
-DAX Time Intelligence
+### DAX Time Intelligence
 
-The DimDate table was used with DAX DATEADD and CALCULATE functions to create previous-year measures.
+The `DimDate` table was used with DAX `DATEADD` and `CALCULATE` functions to create previous-year measures.
 
 For example:
 
+```DAX
 PY Net Sales =
 CALCULATE(
     [Total Net Sales],
     DATEADD(Dimdate[Date], -1, YEAR)
 )
+```
 
 This allowed the dashboard to compare current-year performance against the previous year and calculate YoY changes for metrics such as:
 
-Net Sales
-Profit
-Profit Margin
-Promo Sales
-Promo Dependency
-Promo Units Sold
-Stockouts
-Stockout Rate
-Average Lead Time
-Average Stock on Hand
-Total Units Sold
+* Net Sales
+* Profit
+* Profit Margin
+* Promo Sales
+* Promo Dependency
+* Promo Units Sold
+* Stockouts
+* Stockout Rate
+* Average Lead Time
+* Average Stock on Hand
+* Total Units Sold
+
+```
+
+
+
 
 
 
