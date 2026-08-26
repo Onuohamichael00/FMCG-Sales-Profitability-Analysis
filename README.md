@@ -1,3 +1,101 @@
+# 📈 FMCG Sales & Profitability Analysis
+
+## 📌 Project Overview
+
+Fast-Moving Consumer Goods (FMCG) companies operate in highly competitive and fast-paced markets where profitability depends on efficient sales performance, inventory management, distribution efficiency, pricing, promotions, and accurate demand planning.
+
+This project analyzes a multi-country FMCG transactional dataset covering **2021–2023**. The analysis transforms raw operational data into a structured Business Intelligence solution using **Microsoft Excel, Power Query, Power Pivot, and DAX**.
+
+The project focuses on understanding:
+
+- Sales and revenue performance
+- Product and brand profitability
+- Pricing and promotional effectiveness
+- Inventory availability
+- Stockout performance
+- Supply chain efficiency
+- Market and channel performance
+- Year-over-year business trends
+
+The final output is an interactive Excel-based analytical solution designed to support data-driven business decision-making.
+
+---
+
+# 🎯 Business Objectives
+
+The project was designed to:
+
+- Analyze sales and revenue performance across countries, cities, stores, and sales channels.
+- Identify top-performing and underperforming products, brands, categories, and subcategories.
+- Evaluate the impact of discounts and promotional campaigns on sales and profitability.
+- Monitor inventory levels and identify products affected by stockouts.
+- Assess operational performance using inventory and lead-time metrics.
+- Examine sales trends across monthly, weekly, weekday, and weekend periods.
+- Develop a scalable star-schema data model for analytical reporting.
+- Build interactive dashboards and KPI reports for executive-level monitoring.
+- Generate actionable insights and recommendations to improve profitability, inventory management, and operational efficiency.
+
+---
+
+# 🗃️ Dataset
+
+The project uses the **FMCG Multi-Country Sales Dataset** sourced from Kaggle.
+
+The dataset contains information relating to:
+
+- Products and brands
+- Sales performance
+- Product categories and subcategories
+- Countries and cities
+- Stores and sales channels
+- Discounts and promotions
+- Inventory availability
+- Supplier lead times
+- Purchase costs
+- Profitability metrics
+
+The original CSV file is approximately **200 MB**, so it is not stored directly in this GitHub repository.
+
+### 🔗 Original Dataset
+
+[**View / Download the FMCG Multi-Country Sales Dataset on Kaggle**](https://www.kaggle.com/datasets/robertocarlost/fmcg-multi-country-sales-dataset/data)
+
+---
+
+# 🛠️ Tools & Technologies
+
+- **Microsoft Excel**
+- **Power Query**
+- **Power Pivot**
+- **DAX**
+- **Pivot Tables**
+- **Pivot Charts**
+- **Data Modelling**
+- **Star Schema**
+- **Time Intelligence**
+
+---
+
+# 🧹 Data Exploration, Cleaning & Transformation
+
+The original dataset was relatively clean and well-structured as a single flat file.
+
+The transformation process therefore focused primarily on preparing the data for scalable analytical reporting and restructuring it into a star-schema model.
+
+Key steps included:
+
+- Exploring the dataset structure and granularity.
+- Validating data types.
+- Reviewing key fields and business metrics.
+- Standardizing date and weekday calculations.
+- Creating a dedicated calendar table.
+- Preserving transactional records at their original grain.
+- Preparing dimension tables with unique keys.
+- Restructuring the flat dataset into a star-schema data model.
+- Retaining transactional inventory fields such as stock on hand and stockout flags in the fact table.
+
+---
+
 # 🧩 Data Modelling
 
 The original dataset was provided as a single flat transactional table. To make the dataset more suitable for analytical reporting, I transformed the flat structure into a **star-schema data model using Power Query and Power Pivot**.
