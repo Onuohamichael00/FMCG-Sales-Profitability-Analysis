@@ -179,7 +179,7 @@ Creating separate dimension tables allowed the model to:
 - Improve filtering and aggregation in Pivot Tables and Pivot Charts.
 - Support scalable analysis across products, stores, countries, channels, and dates.
 - Enable DAX time-intelligence calculations.
-- Maintain a proper star-schema structure.
+- Maintain a proper star-schema structure. 
 
 ## Relationship Structure
 
@@ -191,5 +191,18 @@ DimDate[Date]       → FactSales[date]
 DimProduct[sku_id]  → FactSales[sku_id]
 
 DimStore[store_id]  → FactSales[store_id]
+```
+All relationships are one-to-many, with the dimension tables on the "one" side and FactSales on the "many" side.
 
-mnvkj
+The model uses a single-directional filter flow:
+
+Dimension Tables → FactSales
+
+No direct relationships were created between dimension tables in order to preserve the star-schema structure.
+
+A separate supplier dimension was intentionally excluded because the available supplier information did not contain sufficient stable descriptive attributes.
+
+
+
+
+
