@@ -202,7 +202,58 @@ No direct relationships were created between dimension tables in order to preser
 
 A separate supplier dimension was intentionally excluded because the available supplier information did not contain sufficient stable descriptive attributes.
 
+---
 
+📅 Time Intelligence
+
+A dedicated calendar table was created to provide continuous dates from:
+
+01/01/2021 – 31/12/2023
+
+The calendar table supports:
+
+Daily analysis
+Weekly analysis
+Monthly analysis
+Quarterly analysis
+Yearly analysis
+Year-over-year comparisons
+Weekend vs weekday analysis
+
+The weekday calculation was standardized using:
+
+=WEEKDAY(date,3)
+
+ISO week numbering was implemented using:
+
+=ISOWEEKNUM(date)
+
+This calendar table was then used for DAX time-intelligence calculations such as previous-year comparisons.
+
+📊 Key Performance Indicators
+
+The dashboard was designed around four major areas of business performance.
+
+💰 Sales & Profitability
+Total Net Sales
+Profit
+Profit Margin %
+Total Units Sold
+Year-over-Year Growth
+🏷️ Promotions & Pricing
+Promo Sales
+Promo Dependency %
+Discount Impact %
+Promo Units Sold
+Year-over-Year Growth
+📦 Inventory & Supply Chain
+Stockout Count
+Stockout Rate %
+Average Stock on Hand
+Average Lead Time
+Year-over-Year Growth
+
+These KPIs allow business performance to be evaluated across different time periods, products, brands, categories, countries, stores, and channels.
 
 
 
