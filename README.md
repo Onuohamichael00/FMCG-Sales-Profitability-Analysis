@@ -334,26 +334,129 @@ Below are selected DAX measures used in the project. **The complete set of DAX m
 
 ## 💰 Core Sales & Profitability Measures
 
-### 1. Total Net Sales
-
 ```DAX
-Total Net Sales =
+1. Total Net Sales =
 SUM(fact_sales[net_sales])
+
 2. Total Gross Sales
 Total Gross Sales =
 SUM(fact_sales[gross_sales])
+
 3. Total Transactions
 Total Transactions =
 COUNTROWS(fact_sales)
+
 4. Total Units Sold
 Total Units Sold =
 SUM(fact_sales[units_sold])
+
 5. Total Cost
 Total Cost =
 SUMX(
     fact_sales,
     fact_sales[units_sold] * fact_sales[purchase_cost]
 )
+
+6. Total Discount
+Total Discount =
+[Total Gross Sales] - [Total Net Sales]
+
+7. Profit
+Profit =
+[Total Net Sales] - [Total Cost]
+
+8. Profit Margin %
+Profit Margin % =
+DIVIDE(
+    [Profit],
+    [Total Net Sales],
+    0
+)
+
+9. Average Order Value (AOV)
+AOV =
+DIVIDE(
+    [Total Net Sales],
+    [Total Transactions],
+    0
+)
+
+10. Average Items Bought per Transaction
+Avg Items Bought per Transaction =
+DIVIDE(
+    [Total Units Sold],
+    [Total Transactions],
+    0
+)
+
+11. Average Selling Price (ASP)
+Avg Selling Price =
+DIVIDE(
+    [Total Net Sales],
+    [Total Units Sold],
+    0
+)
+
+12. Average Lead Time
+Avg Lead Time =
+AVERAGE(fact_sales[lead_time_days])
+
+13. Average Stock on Hand
+Avg Stock on Hand =
+AVERAGE(fact_sales[stock_on_hand])
+
+14. Discount Impact %
+Discount Impact % =
+DIVIDE(
+    [Total Discount],
+    [Total Gross Sales],
+    0
+)
+
+15. Net Sales %
+Net Sales % =
+DIVIDE(
+    [Total Net Sales],
+    [ALL Net Sales],
+    0
+)
+
+16. Profit %
+Profit % =
+DIVIDE(
+    [Profit],
+    [ALL Profit],
+    0
+)
+```
+
+## 🏷️ Promotion Measures
+```DAX
+17. Promo Sales
+Promo Sales =
+CALCULATE(
+    [Total Net Sales],
+    FILTER(
+        fact_sales,
+        fact_sales[promo_flag] = 1
+    )
+)
+18. Promo Units Sold
+Promo Units Sold =
+CALCULATE(
+    [Total Units Sold],
+    fact_sales[promo_flag] = 1
+)
+19. Promo Dependency %
+Promo Dependency % =
+DIVIDE(
+    [Promo Sales],
+    [Total Net Sales],
+    0
+)
+20. Non-Promo Sales
+Non Promo Sales =
+[Total Net Sales] - [Promo Sales]
 ```
 
 
