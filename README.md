@@ -273,6 +273,87 @@ This allowed the dashboard to compare current-year performance against the previ
 * Average Stock on Hand
 * Total Units Sold
 
+# 📊 Key Performance Indicators
+
+The analysis was structured around four key areas of business performance: sales and profitability, promotions and pricing, inventory and supply chain, and year-over-year performance.
+
+## 💰 Sales & Profitability
+
+- Total Net Sales
+- Profit
+- Profit Margin %
+- Total Units Sold
+- Average Order Value (AOV)
+- Average Selling Price (ASP)
+- Average Items Bought per Transaction
+- Total Transactions
+
+## 🏷️ Promotions & Pricing
+
+- Promo Sales
+- Promo Dependency %
+- Promo Units Sold
+- Discount Impact %
+- Non-Promo Sales
+- Year-over-Year Promotional Performance
+
+## 📦 Inventory & Supply Chain
+
+- Stock Out Count
+- Stockout Rate %
+- Average Stock on Hand
+- Average Lead Time
+- Year-over-Year Inventory Performance
+
+## 📈 Year-over-Year Performance
+
+Year-over-year measures were developed to evaluate changes in business performance across different years.
+
+These comparisons were applied to:
+
+- Net Sales
+- Profit
+- Profit Margin
+- Units Sold
+- Promo Sales
+- Promo Units Sold
+- Promo Dependency
+- Discount Impact
+- Stockout Count
+- Stockout Rate
+- Average Lead Time
+- Average Stock on Hand
+
+These KPIs formed the foundation of the four interactive dashboards and allowed performance to be analyzed across products, brands, categories, countries, stores, sales channels, and time periods.
+
+# 🧮 DAX Measures
+
+The analytical model was powered by DAX measures created in Power Pivot. These measures were used to calculate sales, profitability, promotional performance, inventory metrics, and year-over-year performance.
+
+Below are selected DAX measures used in the project. **The complete set of DAX measures can be viewed in the completed Excel workbook.**
+
+## 💰 Core Sales & Profitability Measures
+
+### 1. Total Net Sales
+
+```DAX
+Total Net Sales =
+SUM(fact_sales[net_sales])
+2. Total Gross Sales
+Total Gross Sales =
+SUM(fact_sales[gross_sales])
+3. Total Transactions
+Total Transactions =
+COUNTROWS(fact_sales)
+4. Total Units Sold
+Total Units Sold =
+SUM(fact_sales[units_sold])
+5. Total Cost
+Total Cost =
+SUMX(
+    fact_sales,
+    fact_sales[units_sold] * fact_sales[purchase_cost]
+)
 ```
 
 
