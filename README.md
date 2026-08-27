@@ -459,6 +459,179 @@ Non Promo Sales =
 [Total Net Sales] - [Promo Sales]
 ```
 
+## 📦 Inventory & Supply Chain Measures
+```DAX
+21. Stock Out Count
+Stock Out Count =
+COUNTROWS(
+    FILTER(
+        fact_sales,
+        fact_sales[stock_out_flag] = 1
+    )
+)
+
+22. Stockout Rate %
+Stockout Rate % =
+DIVIDE(
+    [Stock Out Count],
+    [Total Transactions],
+    0
+)
+```
+
+## 📅 Previous-Year Measures
+
+Previous-year measures were created using CALCULATE and DATEADD to shift the date context by one year.
+```DAX
+23. Previous-Year Net Sales
+PY Net Sales =
+CALCULATE(
+    [Total Net Sales],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+24. Previous-Year Profit
+PY Profit =
+CALCULATE(
+    [Profit],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+25. Previous-Year Profit Margin
+PY Profit Margin =
+CALCULATE(
+    [Profit Margin %],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+26. Previous-Year Promo Sales
+PY Promo Sales =
+CALCULATE(
+    [Promo Sales],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+27. Previous-Year Promo Dependency %
+PY Promo Dependency % =
+CALCULATE(
+    [Promo Dependency %],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+28. Previous-Year Promo Units Sold
+PY Promo Units Sold =
+CALCULATE(
+    [Promo Units Sold],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+29. Previous-Year Stock Out Count
+PY Stock Out Count =
+CALCULATE(
+    [Stock Out Count],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+30. Previous-Year Stockout Rate
+PY Stockout Rate =
+CALCULATE(
+    [Stockout Rate %],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+31. Previous-Year Average Lead Time
+PY Avg Lead Time =
+CALCULATE(
+    [Avg Lead Time],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+32. Previous-Year Average Stock on Hand
+PY Avg Stock on Hand =
+CALCULATE(
+    [Avg Stock on Hand],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+33. Previous-Year Discount Impact
+PY Discount Impact =
+CALCULATE(
+    [Discount Impact %],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+
+34. Previous-Year Total Units Sold
+PY Total Units Sold =
+CALCULATE(
+    [Total Units Sold],
+    DATEADD(Dimdate[Date], -1, YEAR)
+)
+```
+
+## 📈 Year-over-Year Measures
+```DAX
+35. YoY Net Sales Growth
+YOY Net Sales Growth =
+DIVIDE(
+    [Total Net Sales] - [PY Net Sales],
+    [PY Net Sales],
+    0
+)
+
+36. YoY Profit Growth
+YOY Profit Growth =
+DIVIDE(
+    [Profit] - [PY Profit],
+    [PY Profit],
+    0
+)
+
+37. YoY Average Lead Time
+YOY Avg Lead Time =
+DIVIDE(
+    [Avg Lead Time] - [PY Avg Lead Time],
+    [PY Avg Lead Time],
+    0
+)
+
+38. YoY Average Stock on Hand
+YOY Avg Stock on Hand =
+DIVIDE(
+    [Avg Stock on Hand] - [PY Avg Stock on Hand],
+    [PY Avg Stock on Hand],
+    0
+)
+
+39. YoY Promo Sales
+YOY Promo Sales =
+DIVIDE(
+    [Promo Sales] - [PY Promo Sales],
+    [PY Promo Sales],
+    0
+)
+
+40. YoY Promo Units Sold
+YOY Promo Units Sold =
+DIVIDE(
+    [Promo Units Sold] - [PY Promo Units Sold],
+    [PY Promo Units Sold],
+    0
+)
+
+41. YoY Promo Dependency
+YOY Promo Dependency =
+[Promo Dependency %] - [PY Promo Dependency %]
+
+42. YoY Profit Margin Difference
+YOY Profit Margin Difference =
+[Profit Margin %] - [PY Profit Margin]
+
+43. YoY Discount Impact
+YOY Discount Impact =
+[Discount Impact %] - [PY Discount Impact]
+```
+
+
 
 
 
