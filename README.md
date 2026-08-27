@@ -631,7 +631,39 @@ YOY Discount Impact =
 [Discount Impact %] - [PY Discount Impact]
 ```
 
+# 📊 Interactive Dashboards
 
+The final analysis was presented through four interactive dashboard pages, each focusing on a different area of FMCG business performance.
+
+## 1️⃣ Executive Overview & Product Performance
+
+This dashboard provides a high-level view of overall business performance and product-level performance across the 2021–2023 period.
+
+### Key KPIs
+
+- Total Net Sales
+- Profit
+- Profit Margin %
+- Total Units Sold
+- Year-over-Year Performance
+
+### Key Analysis
+
+- Monthly Net Sales and Profit trends
+- Sales performance by Product Category
+- Sales performance by Brand
+- Product-level performance
+- Revenue contribution
+- Profitability performance
+- Year-over-Year changes
+
+### Dashboard Preview
+
+[![Executive Overview & Product Performance Dashboard](Dashboard%20visuals/Overview_Dashboard%201.JPG)](Dashboard%20visuals/Overview_Dashboard%201.JPG)
+
+### 🔗 View Dashboard
+
+[**Click here to view the Executive Overview & Product Performance Dashboard**](Dashboard%20visuals/Overview_Dashboard%201.JPG)
 
 
 
