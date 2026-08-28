@@ -666,6 +666,98 @@ This dashboard provides a high-level view of overall business performance and pr
 [**Click here to view the Executive Overview & Product Performance Dashboard**](Dashboard%20visuals/Overview_Dashboard%201.JPG)
 
 
+## 2️⃣ Executive Overview & Market Performance
+
+This dashboard provides a deeper view of business performance across markets, stores, sales channels, and products for the 2021–2023 period.
+
+### Key KPIs
+
+- Total Net Sales
+- Profit
+- Profit Margin %
+- Total Units Sold
+- Year-over-Year Performance
+
+### Key Analysis
+
+- Monthly demand trends
+- Top-performing stores by Net Sales
+- Sales performance by Country
+- Sales performance by Sales Channel
+- Most profitable products
+- Market performance
+- Customer demand patterns
+
+### Dashboard Preview
+
+[![Executive Overview & Market Performance Dashboard](Dashboard%20visuals/Overview_Dashboard%202.JPG)](Dashboard%20visuals/Overview_Dashboard%202.JPG)
+
+### 🔗 View Dashboard
+
+[**Click here to view the Executive Overview & Market Performance Dashboard**](Dashboard%20visuals/Overview_Dashboard%202.JPG)
 
 
+## 3️⃣ Pricing & Promotions Analysis
 
+This dashboard evaluates the effectiveness of pricing strategies and promotional activities across the FMCG business.
+
+### Key KPIs
+
+- Promo Sales
+- Promo Dependency %
+- Promo Units Sold
+- Discount Impact %
+- Year-over-Year Performance
+
+### Key Analysis
+
+- Promotional sales performance
+- Promotional dependency by Product Category
+- Promotional dependency by Country
+- Promotional dependency by Brand
+- Discount impact on sales
+- Promotional unit performance
+- Pricing and promotional efficiency
+- Year-over-Year changes
+
+### Dashboard Preview
+
+[![Pricing & Promotions Dashboard](Dashboard%20visuals/Promotions_Dashboard.JPG)](Dashboard%20visuals/Promotions_Dashboard.JPG)
+
+### 🔗 View Dashboard
+
+[**Click here to view the Pricing & Promotions Dashboard**](Dashboard%20visuals/Promotions_Dashboard.JPG)
+
+
+## 4️⃣ Inventory Availability & Supply Chain Performance
+
+This dashboard focuses on inventory availability and supply chain efficiency across the FMCG business.
+
+### Key KPIs
+
+- Stock Out Count
+- Stockout Rate %
+- Average Stock on Hand
+- Average Lead Time
+- Year-over-Year Performance
+
+### Key Analysis
+
+- Stockout patterns by Product Category
+- Stockout patterns by Product
+- Stockout performance by Store
+- Stockout performance by Country
+- Supplier performance
+- Average Lead Time
+- Average Stock on Hand
+- Product availability
+- Supply chain performance
+- Year-over-Year changes
+
+### Dashboard Preview
+
+[![Inventory Availability & Supply Chain Dashboard](Dashboard%20visuals/Supply%20Chain_Dahboard.JPG)](Dashboard%20visuals/Supply%20Chain_Dahboard.JPG)
+
+### 🔗 View Dashboard
+
+[**Click here to view the Inventory Availability & Supply Chain Dashboard**](Dashboard%20visuals/Supply%20Chain_Dahboard.JPG)
