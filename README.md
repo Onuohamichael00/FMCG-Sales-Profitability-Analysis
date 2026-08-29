@@ -756,8 +756,8 @@ This dashboard focuses on inventory availability and supply chain efficiency acr
 
 ### Dashboard Preview
 
-[![Inventory Availability & Supply Chain Dashboard](./Dashboard%20visuals/Supply%20Chain_Dahboard.JPG)](./Dashboard%20visuals/Supply%20Chain_Dahboard.JPG)
+[![Inventory Availability & Supply Chain Dashboard](./Dashboard%20visuals/Supply%20Chain_Dashboard.JPG)](./Dashboard%20visuals/Supply%20Chain_Dashboard.JPG)
 
 ### 🔗 View Dashboard
 
-[**Click here to view the Inventory Availability & Supply Chain Dashboard**](./Dashboard%20visuals/Supply%20Chain_Dahboard.JPG)
+[**Click here to view the Inventory Availability & Supply Chain Dashboard**](./Dashboard%20visuals/Supply%20Chain_Dashboard.JPG)
