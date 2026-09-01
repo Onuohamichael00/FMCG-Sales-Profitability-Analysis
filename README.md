@@ -940,3 +940,65 @@ The category analysis highlights the importance of balancing **revenue growth wi
 Snacks should remain a key focus because of its strong revenue and profit contribution, while its promotional dependency should be monitored to ensure future growth does not become overly reliant on discounts.
 
 Categories such as Dairy demonstrate the potential of achieving **strong margins with lower promotional dependence**, providing a useful benchmark for improving category-level profitability.
+
+## 🌍 Geographic Performance
+
+The geographic analysis revealed significant differences in sales performance, profitability, promotional reliance, and inventory availability across countries.
+
+🥇 Italy — Strongest Overall Market
+
+Italy was the top-performing country in both net sales and profit.
+
+This indicates that Italy was the strongest market in terms of both revenue generation and profitability, making it an important market for maintaining and potentially expanding business activity.
+
+However, Italy also recorded the highest stockout counts, despite its strong sales performance. This suggests that demand in the market may be outpacing inventory availability.
+
+📦 Netherlands — Low Sales Despite Strong Availability
+
+The Netherlands showed the opposite pattern.
+| Metric                |          Netherlands |
+| --------------------- | -------------------: |
+| Net Sales             | **$12.52M — Lowest** |
+| Stockouts             |           **Lowest** |
+| Average Stock on Hand |      **2nd highest** |
+| Promo Dependency      | **12.39% — Highest** |
+
+Despite having strong inventory availability and relatively high stock levels, the Netherlands generated the lowest net sales.
+
+This suggests that the market's weak performance is unlikely to be primarily caused by product availability.
+
+The high promotional dependency also indicates that the market may require significant promotional support to generate sales.
+
+💰 Austria — Strong Profitability
+
+Austria recorded the highest profit margin at 38.64%, despite having only moderate sales performance.
+
+This indicates relatively strong profitability efficiency compared with the size of its revenue contribution.
+
+Austria therefore provides an example of a market where margin quality is strong even without being the largest revenue contributor.
+
+📊 Mid-Tier Markets
+
+Germany, Spain, France, and Poland demonstrated relatively stable mid-tier performance.
+
+These markets did not stand out as either the strongest or weakest performers, suggesting that they may represent opportunities for incremental growth through improvements in pricing, promotions, distribution, or demand generation.
+
+💡 Key Takeaway
+
+The geographic analysis reveals an important operational distinction:
+
+Strong inventory availability does not necessarily translate into strong sales performance.
+
+The Netherlands provides the clearest example: it had the lowest sales, despite having the lowest stockout counts and second-highest average stock on hand. Meanwhile, Italy had strong sales and profit but also experienced the highest stockout counts.
+
+This suggests that inventory should be allocated according to demand rather than distributed uniformly across markets.
+
+🎯 Business Implication
+
+The business should:
+
+1. Prioritize Italy for stronger inventory coverage because of its high demand.
+2. Investigate the Netherlands' weak demand, focusing on pricing, product-market fit, and customer adoption rather than simply increasing inventory.
+3. Maintain focus on Austria's margin efficiency and identify what pricing or product factors are supporting its profitability.
+4. Evaluate the growth potential of stable mid-tier markets such as Germany, Spain, France, and Poland.
+
