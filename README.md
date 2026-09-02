@@ -1002,3 +1002,78 @@ The business should:
 3. Maintain focus on Austria's margin efficiency and identify what pricing or product factors are supporting its profitability.
 4. Evaluate the growth potential of stable mid-tier markets such as Germany, Spain, France, and Poland.
 
+## 🛒 Sales Channel Performance
+
+Sales performance varied considerably across the different sales channels, with Hypermarkets contributing the largest share of revenue.
+
+### 🥇 Hypermarkets — Largest Revenue Contributor
+
+**Hypermarkets** generated the highest net sales at **$258.74M**, making them the dominant sales channel in the business.
+
+This indicates that Hypermarkets were the primary channel for generating sales volume and revenue across the analysis period.
+
+### 🛍️ E-commerce — Significant Revenue Contribution
+
+**E-commerce** generated **$112.73M** in net sales, making it the second-largest contributor among the sales channels.
+
+Its strong contribution highlights the importance of digital channels within the overall sales strategy.
+
+### 💰 Supermarkets — Strongest Margin
+
+Although Supermarkets did not generate the highest revenue, they recorded the **highest profit margin at 38.56%**.
+
+This demonstrates that revenue contribution and profitability are not necessarily the same across channels.
+
+### 🏪 Convenience Stores
+
+**Convenience Stores** represented the smallest contribution to overall sales.
+
+This suggests an opportunity to assess whether the channel has potential for growth through improved product assortment, pricing, availability, or targeted promotions.
+
+### 💡 Key Takeaway
+
+The channel analysis shows that the business should evaluate sales channels using both **revenue contribution and profitability**, rather than focusing on sales alone.
+
+Hypermarkets remain the primary revenue driver, while Supermarkets demonstrate stronger margin efficiency. E-commerce also represents a significant source of revenue and should remain an important part of the business's growth strategy.
+
+## 🏷️ Promotions & Pricing Performance
+
+Promotional activity contributed to sales, but the analysis showed that promotions were **not the primary driver of overall revenue growth**.
+
+### 📊 Overall Promotional Performance
+
+Across 2021–2023:
+
+| KPI | Result |
+|---|---:|
+| Promo Sales | **$49.40M** |
+| Promo Dependency | **10.44%** |
+| Discount Impact | **~2.4%** |
+
+Promo dependency remained relatively stable across the three years:
+
+- **2021:** 10.47%
+- **2022:** 10.46%
+- **2023:** 10.41%
+
+Discount impact also remained stable:
+
+- **2021:** 2.41%
+- **2022:** 2.45%
+- **2023:** 2.44%
+
+This indicates that the business did not become significantly more dependent on promotions over time. 
+
+### 🏷️ Category-Level Promotional Dependency
+
+**Snacks** recorded the highest promotional dependency at **13.90%**, followed by **Beverages at 12.82%**.
+
+Snacks also recorded the highest discount impact at **3.20%**.
+
+This suggests that some of the business's highest-revenue categories rely more heavily on promotional activity to generate sales.
+
+### 💡 Key Takeaway
+
+Promotions are useful for supporting sales, but the relatively stable **10.44% promotional dependency** shows that they are not the main source of overall revenue.
+
+The analysis therefore suggests that the business should focus on **organic demand, pricing efficiency, and customer spending behavior**, while using promotions more strategically rather than relying on continuous discounting.
