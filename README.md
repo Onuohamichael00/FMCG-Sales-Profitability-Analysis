@@ -1077,3 +1077,98 @@ This suggests that some of the business's highest-revenue categories rely more h
 Promotions are useful for supporting sales, but the relatively stable **10.44% promotional dependency** shows that they are not the main source of overall revenue.
 
 The analysis therefore suggests that the business should focus on **organic demand, pricing efficiency, and customer spending behavior**, while using promotions more strategically rather than relying on continuous discounting.
+
+
+## 📦 Inventory & Supply Chain Performance
+
+The supply chain analysis focused on stock availability, stockout patterns, inventory levels, and lead times across products, stores, and countries.
+
+### 📉 Stockout Performance
+
+Across 2021–2023, the business recorded:
+
+| KPI | Result |
+|---|---:|
+| Total Stockouts | **33.11K** |
+| Stockout Rate | **3.01%** |
+| Average Stock on Hand | **~299** |
+
+Stockouts gradually declined over the three-year period:
+
+- **2021:** 11.10K stockouts
+- **2022:** 11.05K stockouts (**-0.53%**)
+- **2023:** 10.97K stockouts (**-0.72%**)
+
+This indicates a gradual improvement in product availability. :contentReference[oaicite:0]{index=0}
+
+### 🏪 Country-Level Availability
+
+There were notable differences between inventory availability and sales performance across countries.
+
+- **Italy** recorded the highest stockout counts despite being the strongest market by sales and profit.
+- **Netherlands** recorded the lowest stockout counts and maintained high inventory availability, but generated the lowest sales.
+- Average stock on hand remained relatively stable at approximately **299** across the three years.
+
+This demonstrates that **strong inventory availability does not necessarily translate into strong sales performance**. :contentReference[oaicite:1]{index=1}
+
+### 📦 Category-Level Stockouts
+
+**Snacks and Beverages** recorded the highest stockout rates.
+
+Because these categories are also major revenue contributors, stockouts in these areas could create missed sales opportunities and should receive greater attention in inventory planning. :contentReference[oaicite:2]{index=2}
+
+### 💡 Key Takeaway
+
+The supply chain was generally stable, with stockouts gradually declining over time. However, inventory availability was not always aligned with customer demand.
+
+The contrast between **Italy's strong demand and higher stockouts** and the **Netherlands' high inventory availability but weak sales** highlights the need for a more **demand-driven inventory allocation strategy**.
+
+Rather than simply increasing inventory across all markets, the business should prioritize inventory based on **demand patterns, sales potential, and stockout risk**.
+
+
+## 📈 Demand Patterns
+
+Demand patterns varied across years, products, categories, countries, and sales channels.
+
+### 🛒 Customer Purchasing Behavior
+
+The analysis showed that changes in revenue were not always driven by changes in the number of units sold.
+
+In 2022, the business achieved higher net sales despite a slight decline in total units sold. This suggests that customers were generating more value per transaction through:
+
+- Higher Average Selling Price (ASP)
+- Higher Average Order Value (AOV)
+- Higher average items purchased per transaction
+
+In 2023, these indicators declined, contributing to the reduction in overall net sales.
+
+### 📦 Product & Category Demand
+
+Demand was concentrated across the strongest-performing product categories, with **Snacks** contributing the largest share of revenue.
+
+The analysis also showed that sales volume and profitability varied considerably between categories. High-volume categories therefore require monitoring not only for demand but also for their ability to convert demand into profitable sales.
+
+### 🌍 Geographic Demand
+
+Demand also varied across markets.
+
+**Italy** was the strongest market by sales and profit, indicating strong customer demand. However, its higher stockout levels suggest that inventory availability may not always have kept pace with demand.
+
+In contrast, the **Netherlands** maintained strong inventory availability but recorded the lowest sales. This suggests that its weaker performance was more likely related to demand, pricing, product mix, or promotional effectiveness rather than inventory shortages.
+
+### 🛍️ Channel Demand
+
+Demand differed significantly across sales channels.
+
+- **Hypermarkets** generated the highest revenue, indicating strong customer demand through this channel.
+- **E-commerce** represented a significant portion of total sales and highlights the importance of digital purchasing behavior.
+- **Supermarkets** generated lower revenue than Hypermarkets but achieved the strongest profit margin.
+- **Convenience Stores** recorded the smallest sales contribution.
+
+### 💡 Key Takeaway
+
+Demand analysis shows that the business should not evaluate demand using sales volume alone.
+
+A more complete view should consider **revenue per transaction, basket size, pricing, product mix, geographic demand, channel performance, and inventory availability**.
+
+Understanding these demand patterns can help the business improve **inventory allocation, pricing decisions, product assortment, and sales-channel strategy** while reducing missed sales opportunities caused by stockouts.
