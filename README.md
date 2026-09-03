@@ -1179,93 +1179,93 @@ Understanding these demand patterns can help the business improve **inventory al
 
 Categories like Snacks and Beverages generate the highest revenue but show lower profit margins and higher promo dependency. This suggests growth is being supported by discounts rather than pricing strength.
 The business should:
-•	Gradually reduce excessive discounting in high-demand categories 
-•	Introduce targeted pricing instead of blanket promotions 
-•	Focus on premium variants or value-based pricing where ASP can be improved 
+1. Gradually reduce excessive discounting in high-demand categories 
+2. Introduce targeted pricing instead of blanket promotions 
+3. Focus on premium variants or value-based pricing where ASP can be improved 
 This will help improve margin quality without sacrificing demand.
 
 ### Reduce over-reliance on promotions and improve organic demand
 
 Promo dependency is relatively stable (~10.4%), but certain categories and channels (Snacks, Beverages, Convenience stores) are significantly more promotion-driven.
 The business should:
-•	Shift from constant promotions to seasonal or strategic campaigns 
-•	Build brand loyalty through product differentiation 
-•	Encourage repeat purchase behavior without discounts 
+1. Shift from constant promotions to seasonal or strategic campaigns 
+2. Build brand loyalty through product differentiation 
+3. Encourage repeat purchase behavior without discounts 
 This will reduce revenue volatility and improve profitability stability.
 
 ### Improve demand recovery in underperforming categories and brands
 
 Brands such as BrandE and categories like Home Care consistently underperform in revenue contribution.
 Recommended actions:
-•	Reassess product positioning and pricing strategy 
-•	Identify gaps in product assortment or market fit 
-•	Increase marketing focus on low-performing segments with growth potential 
+1. Reassess product positioning and pricing strategy 
+2. Identify gaps in product assortment or market fit 
+3. Increase marketing focus on low-performing segments with growth potential 
 The goal is not just discounting these categories but improving their market relevance.
 
 ### Optimize supply chain allocation rather than just reducing stockouts
 
 Stockouts have slightly decreased over time, but performance differences across countries show that availability is not always aligned with demand.
 For example:
-•	Netherlands has low stockouts and high stock levels but the lowest sales 
-•	Italy has high demand but also higher stockout counts 
+1. Netherlands has low stockouts and high stock levels but the lowest sales 
+2. Italy has high demand but also higher stockout counts 
 The business should:
-•	Improve demand forecasting at country and store level 
-•	Reallocate inventory based on actual demand patterns rather than uniform distribution 
-•	Prioritize high-performing markets like Italy for stronger supply coverage 
+1. Improve demand forecasting at country and store level 
+2. Reallocate inventory based on actual demand patterns rather than uniform distribution 
+3. Prioritize high-performing markets like Italy for stronger supply coverage 
 
 ### Address inefficiencies in low-performing markets (especially Netherlands)
 
 The Netherlands shows a unique pattern:
-•	Lowest net sales 
-•	Very low stockouts 
-•	High average stock on hand 
-•	High promo dependency 
+1. Lowest net sales 
+2. Very low stockouts 
+3. High average stock on hand 
+4. High promo dependency 
 This indicates demand issues rather than supply issues.
 Recommended actions:
-•	Conduct market-level demand analysis to understand weak adoption 
-•	Review product-market fit and pricing strategy in that region 
-•	Reduce excess stock allocation and redirect inventory to stronger markets 
+1. Conduct market-level demand analysis to understand weak adoption 
+2. Review product-market fit and pricing strategy in that region 
+3. Reduce excess stock allocation and redirect inventory to stronger markets 
 
 ### Improve conversion efficiency (AOV and basket size growth)
 
 The 2022 performance peak was driven by higher AOV, ASP, and items per transaction, not volume growth. In 2023, all of these declined, leading to weaker revenue.
 The business should:
-•	Encourage bundle offers that increase basket size without heavy discounting 
-•	Optimize product combinations to increase items per transaction 
-•	Focus on upselling and cross-selling strategies 
+1. Encourage bundle offers that increase basket size without heavy discounting 
+2. Optimize product combinations to increase items per transaction 
+3. Focus on upselling and cross-selling strategies 
 This directly targets the main driver of revenue performance.
 
 ### Strengthen high-performing channels while improving weaker ones
 
 Hypermarkets dominate revenue, while convenience stores contribute very little but show higher promotional reliance.
 Actions:
-•	Invest more in hypermarket partnerships and shelf visibility 
-•	Improve assortment strategy in e-commerce for higher margin products 
-•	Re-evaluate convenience channel strategy due to low efficiency 
+1. Invest more in hypermarket partnerships and shelf visibility 
+2. Improve assortment strategy in e-commerce for higher margin products 
+3. Re-evaluate convenience channel strategy due to low efficiency 
 
 ### Improve inventory planning using demand signals
 
 Stockouts are relatively stable, but they still affect key categories like Snacks and Beverages.
 To improve:
-•	Use historical demand trends (monthly spikes in May, August, December) for better forecasting 
-•	Increase safety stock for high-demand periods 
-•	Align inventory levels with category-level demand variability 
+1. Use historical demand trends (monthly spikes in May, August, December) for better forecasting 
+2. Increase safety stock for high-demand periods 
+3. Align inventory levels with category-level demand variability 
 
 ### Focus on margin quality, not just revenue growth
 
 Even though revenue remains stable, profit margin differences across categories and brands show that not all growth is efficient.
 The business should:
-•	Prioritize categories with stable high margins like Dairy 
-•	Reduce dependency on low-margin promotional sales 
-•	Track margin-adjusted growth instead of revenue-only growth 
+1. Prioritize categories with stable high margins like Dairy 
+2. Reduce dependency on low-margin promotional sales 
+3. Track margin-adjusted growth instead of revenue-only growth 
 
 ### Final Strategic Summary
 
 The overall business story shows that:
-•	Growth is driven more by customer spending behavior than volume 
-•	Promotions support sales but do not create sustainable growth 
-•	Supply chain performance is generally stable, but not perfectly aligned with demand 
-•	Certain markets and categories require structural improvement rather than operational fixes 
+1. Growth is driven more by customer spending behavior than volume 
+2. Promotions support sales but do not create sustainable growth 
+3. Supply chain performance is generally stable, but not perfectly aligned with demand 
+4. Certain markets and categories require structural improvement rather than operational fixes 
 The most important shift required is:
 Moving from promotion-driven and volume-focused growth to value-driven and efficiency-focused growth.
 
